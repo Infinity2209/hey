@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photfolio</title>
+    <style>
+        .container {
+            background-color: rgb(229, 198, 157);
+            display: grid;
+            grid-template-areas:
+                "navbar navbar navbar navbar"
+                "section section section aside"
+                "footer footer footer footer";
+        }
+
+        nav {
+            grid-area: navbar;
+        }
+
+        section {
+            grid-area: section;
+        }
+
+        aside {
+            grid-area: aside;
+        }
+
+        footer {
+            grid-area: footer;
+        }
+
+        #logo {
+            margin: 10px 10px;
+        }
+
+        #logo img {
+            height: 90px;
+            margin: 6px 8px;
+        }
+
+        #navbar {
+            position: relative;
+            display: flex;
+            align-items: center;
+            background-color: rgb(74, 237, 237);
+            height: 85px;
+        }
+
+        #navbar ul {
+            display: flex;
+        }
+
+        #navbar ul li {
+            list-style: none;
+            font-size: 1.3rem;
+        }
+
+        #navbar ul li a {
+            display: block;
+            padding: 33px 22px;
+            border-radius: 20px;
+            text-decoration: none;
+        }
+
+        #navbar ul li a:hover {
+            color: black;
+            background-color: bisque;
+        }
+
+        #my img {
+            height: 31rem;
+            margin: 6px 8px;
+        }
+
+        p,
+        ul li {
+            font-size: 2rem;
+            padding: 12px;
+
+        }
+
+        footer {
+            font-size: 1.2rem;
+            border: 2px solid gray;
+            align-items: center;
+            justify-content: center;
+            background-color: aquamarine;
+            position: relative;
+            display: flex;
+        }
+
+        @media only screen and (max-width:400px) {
+            .container {
+                grid-template-areas:
+                    "navbar navbar navbar "
+                    "section section section"
+                    "aside aside aside"
+                    "footer footer footer";
+            }
+
+
+        }
+
+        @media only screen and (min-width:400px) and (max-width:800px) {
+            .container {
+                grid-template-areas:
+                    "navbar navbar navbar navbar"
+                    "section section section section"
+                    "aside aside aside aside"
+                    "footer footer footer footer";
+            }
+        }
+
+        @media only screen and (min-width:800px) and (max-width:1500px) {
+            .container {
+                grid-template-areas:
+                    "navbar navbar navbar navbar"
+                    "section section section aside"
+                    "footer footer footer footer";
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <nav id="navbar">
+            <div id="logo">
+                <img src="https://www.clipartkey.com/mpngs/m/46-466826_ironman-png-marvel-logo-marvel-iron-man.png"
+                    alt="Ironman">
+            </div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="section">About</a></li>
+                <li><a href="footer">Contact</a></li>
+            </ul>
+        </nav>
+
+        <section>
+            <h1 aling="center">
+                Hii:
+            </h1>
+            <p>
+                I am <strong>Ananta Nag</strong>.I am a student of Government College of
+                Engineering,Khalahandi,Bhawaanipatna,Odisha.I am a <strong>Web Developer</strong>.
+            </p>
+            <p>
+                I am well aquented with the programming language:
+            <ul>
+                <li>C Language</li>
+                <li>HTML</li>
+                <li>CSS</li>
+            </ul>
+            </p>
+        </section>
+        <aside id="my">
+            <img src="Ananta.jpeg" alt="Ananta Nag">
+        </aside>
+    </div>
+    <footer>
+        E-mail:anantanag91@gmail.com <br>
+        Facebook:Ananta Nag <br>
+        Intstagram Id:___Infinity___ <br>
+        Contact:7735111244
+    </footer>
+
+</body>
+
+</html>
