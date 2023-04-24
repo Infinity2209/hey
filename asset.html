@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <title>Asset</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        * {
+            color: white;
+        }
+
+        nav {
+            display: block;
+            height: 70px;
+            text-align: center;
+            background-color: black;
+        }
+
+        nav img {
+            float: left;
+            padding: 5px;
+            padding-left: 25px;
+            height: 60px;
+        }
+
+        nav li {
+            list-style: none;
+            display: inline-block;
+        }
+
+        .now {
+            padding: 15px;
+            font-size: large;
+            background-color: black;
+
+        }
+
+        .now a {
+            padding: 10px;
+            display: inline-block;
+            align-items: center;
+            text-decoration: none;
+        }
+
+        .first {
+            height: 40pc;
+            background-image: url("Picture1.jpg");
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            margin: 0%;
+
+        }
+
+        .first1 {
+            text-align: left;
+            padding: 15pc;
+        }
+
+        .sign {
+            writing-mode: vertical-rl;
+            text-orientation: mixed;
+            float: left;
+            font-size: 1.5em;
+            padding-top: 15pc;
+            padding-left: 3pc;
+        }
+
+        .spara1 {
+            font-size: 5em;
+            font-style: oblique;
+        }
+
+        .spara2 {
+            font-size: 2em;
+        }
+
+        .second {
+            background-color: black;
+            height: 40pc;
+            display: block;
+        }
+
+        .second1 {
+            text-align: center;
+            font-size: 3em;
+            float: left;
+            padding-top: 12pc;
+            padding-left: 4pc;
+        }
+
+        .second2 {
+            font-size: 0.5em;
+        }
+
+        .second img {
+            float: right;
+            height: 25em;
+            padding: 2%;
+        }
+
+        .third {
+            display: block;
+            height: 50pc;
+            background-color: black;
+            font-size: 2em;
+            text-align: center;
+        }
+
+        .third1 {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 2em;
+        }
+
+        .third img {
+            float: left;
+            height: 12em;
+            padding: 2%;
+            width: 16em;
+            padding-top: 10%;
+        }
+
+        #img4 {
+            padding-left: 10%;
+            padding-right: 10%;
+        }
+
+        .third p {
+            padding-top: 10pc;
+            text-align: left;
+        }
+
+        .fourth {
+            display: block;
+            height: 50pc;
+            background-color: black;
+            font-size: 2em;
+            text-align: center;
+        }
+
+        .img6 {
+            display: inline-flex;
+        }
+
+        .name {
+            display: block;
+        }
+
+        .img51 {
+            padding-right: 10px;
+        }
+
+        .img52 {
+            padding-left: 10px;
+        }
+
+        .watermark {
+            position: relative;
+        }
+
+        .watermark__inner {
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            left: 0px;
+            position: absolute;
+            top: 0px;
+            height: 100%;
+            width: 100%;
+        }
+
+        .watermark__body1 {
+            float: left;
+            color: rgb(255, 252, 252);
+            font-size: 8rem;
+            overflow: visible;
+            padding-left: 2pc;
+        }
+
+        .watermark__body2 {
+            float: right;
+            color: rgb(255, 252, 252);
+            font-size: 8rem;
+            overflow: visible;
+            padding-left: 2pc;
+        }
+
+        .watermark__body {
+            color: rgba(251, 251, 251, 0.2);
+            font-size: 5rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            padding-top: 2pc;
+            padding-right: 0.5pc;
+            padding-bottom: 3pc;
+            float: right;
+        }
+
+        .mem {
+            display: flex;
+            padding: 6pc;
+            padding-left: 10pc;
+            text-align: center;
+            font-family: Verdana;
+            font-size: 26px;
+            line-height: 140%;
+        }
+
+        .mem1 {
+            background-color: rgb(178, 176, 176);
+            height: 15em;
+            width: 25em;
+            color: black;
+            position: relative;
+            top: 40px;
+        }
+
+        .mem2 {
+            background-color: rgb(255, 253, 253);
+            height: 18em;
+            width: 30em;
+            color: black;
+        }
+
+        .mem3 {
+            background-color: rgb(178, 176, 176);
+            height: 15em;
+            width: 25em;
+            color: black;
+            position: relative;
+            top: 40px;
+        }
+
+        .button {
+            text-align: center;
+            font-size: 0.7em;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            background-color: rgb(53, 53, 231);
+            border-radius: 1.5em;
+        }
+
+        .pa {
+            font-size: medium;
+            color: black;
+        }
+
+        .fa {
+            color: black;
+            float: left;
+            padding-left: 2em;
+        }
+
+        .box {
+            display: inline-block;
+            align-items: center;
+            line-break: strict;
+            align-items: center;
+        }
+
+        .box12 {
+            color: black;
+            background-color: white;
+            height: 25px;
+            font-size: 20px;
+            width: 400px;
+            float: right;
+            text-align: left;
+
+        }
+
+        .box11 {
+            color: black;
+            background-color: rgba(33, 33, 249, 0.918);
+            height: 25px;
+            width: 25px;
+            font-size: 20px;
+            float: left;
+        }
+
+        .fourth img {
+            float: left;
+            padding-top: 13pc;
+            padding-left: 7pc;
+            height: 190px;
+        }
+
+        .li {
+            list-style: none;
+            font-size: 12px;
+            float: right;
+            padding-top: 15pc;
+            padding-right: 5pc;
+            width: 200px;
+        }
+
+        .line {
+            text-decoration: underline solid rgba(1, 236, 165, 0.72) 30%;
+        }
+
+        footer {
+            background-color: rgb(2, 103, 243);
+            padding-top: 5px;
+            padding-left: 80px;
+            height: 24px;
+        }
+        .foot{
+            display: inline-flex;
+            background-color: rgb(255, 255, 255);
+            float: left;
+            width: 180px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <nav>
+            <img src="LOGO1.png" alt="LOGO">
+            <ul>
+                <li class="now">
+                    <a href="#home">HOME</a>
+                    <a href="#whoweare">WHO WE ARE</a>
+                    <a href="#classes">CLASSES</a>
+                    <a href="#instructor">INSTRUCTOR</a>
+                    <a href="#membership">MEMBERSHIPS</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <div id="home" class="first">
+
+        <div class="sign">
+            SCROLL DOWN______
+        </div>
+        <div class="first1">
+            <div class="spara1">
+                The Sign Of <a style="color: rgb(65, 65, 254);">prevail</a>
+            </div>
+            <div class="spara2">
+                Learn from the Best-Dance <a style="font-size: 1.5em;">Professionals</a>
+            </div>
+        </div>
+    </div>
+    <div class="second">
+        <div class="second1">
+            <strong>
+                R Tigers Fitness Studio
+            </strong>
+            <div class="second2">
+                Uco Bank 1st floor, in front of center Park,<br> Bhawanipatna, Odisha 766001
+            </div>
+        </div>
+        <img src="location.png" alt="location of our center ">
+    </div>
+    <div id="whoweare" class="third">
+        <div class="watermark__body1">01</div>
+        <div class="watermark">
+            <div class="watermark__inner">
+                <div class="watermark__body">WHO WE ARE</div>
+            </div>
+        </div>
+        <strong>
+            <div class="third1">WHO <a style="color: rgb(65, 65, 254);">WE</a> ARE </div>
+        </strong>
+        <img src="Picture2.png" alt="Our Achivement">
+        <p>
+            Its a complete fitness studio for all age <br>
+            groups, like Taekwondo, <br>
+            Zumba,Aerobics, StepAerobics,<br>
+            Yoga,Art&Craft &Dance
+        </p>
+    </div>
+    <div id="classes" class="third">
+        <div class="watermark">
+            <div class="watermark__inner">
+                <div class="watermark__body">CLASSES</div>
+            </div>
+        </div>
+        <strong>
+            <div class="third1">CLASSES</div>
+        </strong>
+        <img id="img4" src="Picture3.png" alt="Our Classes">
+        <div class="watermark__body1">02</div>
+        <p>
+            Its a complete fitness studio for all <br>
+            age groups, like Taekwondo,<br>
+            Zumba,Aerobics, StepAerobics,<br>
+            Yoga,Art&Craft &Dance
+        </p>
+    </div>
+    <div id="instructor" class="fourth">
+        <div class="watermark__body1">03</div>
+        <div class="watermark">
+            <div class="watermark__inner">
+                <div class="watermark__body">TESTIMONIAL</div>
+            </div>
+        </div>
+        <strong>
+            <div class="third1">TESTIMONIAL</div>
+        </strong>
+        <div class="img6">
+            <div class="img51">
+                <img src="Profile2.png" alt="Rabindra kumar Sahu">
+                <a class="name">Rabindra kumar Sahu</a>
+            </div>
+            <div class="img52">
+                <img src="Profile1.png" alt="Debabrata Papp">
+                <a class="name">Debabrata Papp</a>
+            </div>
+        </div>
+    </div>
+    <div id="membership" class="fourth">
+        <div class="watermark">
+            <div class="watermark__inner">
+                <div class="watermark__body">MEMBERSHIP</div>
+            </div>
+        </div>
+        <div class="watermark__body2">04</div>
+        <strong>
+            <div class="third1">MEMBERSHIP</div>
+        </strong>
+        <div class="mem">
+            <div class="mem1">
+                <br style="text-align: center;"> FLEXI <br>
+                <i style="font-size: 2.2em;" class="fa">&#xf252;</i> <br>
+                ₹199.99 / month<br>
+                <p class="pa"><i style="font-size:24px" class="fa">&#xf046;</i>12 Classes Per Month</p>
+                <p class="pa"><i style="font-size:24px" class="fa">&#xf046;</i>3 Classes Per Week</p>
+                <p class="pa"><i style="font-size:24px" class="fa">&#xf046;</i>No Joining fees</p>
+                <button class="button"> JOIN TODAY </button>
+            </div>
+            <div class="mem2">
+                <br>ALL ACCESS <br>
+                <i class="fa fa-history" style="font-size: 2.5em;"></i> <br>
+                <br> ₹199.99 / month<br>
+                <p class="pa"><i style="font-size:24px" class="fa">&#xf046;</i>Unlimeted Classes Per Month</p>
+                <p class="pa"><i style="font-size:24px" class="fa">&#xf046;</i>8 Classes Per Day</p>
+                <p class="pa"><i style="font-size:24px" class="fa">&#xf046;</i>No Joining fees</p>
+                <button class="button"> JOIN TODAY </button>
+            </div>
+            <div class="mem3">
+                <br>OFF-PEAK<br>
+                <i style="font-size:2.2em" class="fa">&#xf017;</i>
+                ₹149.99 / month<br>
+                <p class="pa"><i style="font-size:24px" class="fa">&#xf046;</i>20 Classes Per Month</p>
+                <p class="pa"><i style="font-size:24px" class="fa">&#xf046;</i>5 Classes Per Week</p>
+                <p class="pa"><i style="font-size:24px" class="fa">&#xf046;</i>No Joining fees</p>
+                <button class="button"> JOIN TODAY </button>
+            </div>
+        </div>
+    </div>
+    <div class="fourth">
+        <div class="watermark">
+            <div class="watermark__inner">
+                <div class="watermark__body">FAQ</div>
+            </div>
+        </div>
+        <strong>
+            <div class="third1">FAQ</div>
+        </strong>
+        <div class="box">
+            <div class="box1">
+                <p class="box11">
+                    01
+                </p>
+                <p class="box12">
+                    How to join?
+                    <a href="https://r-tigers-fitness-studio.business.site/#details"
+                        style="font-size:55px;float:right;color:black;">^</a>
+                </p>
+            </div>
+            <div class="box2">
+                <p class="box11">
+                    02
+                </p>
+                <p class="box12">
+                    How to join online workout?
+                    <a href="https://www.facebook.com/rtigersfitnessstudio/"
+                        style="font-size:55px;float:right;color:black;">^</a>
+                </p>
+            </div>
+            <div class="box3">
+                <p class="box11">
+                    03
+                </p>
+                <p class="box12">
+                    What is R Tigers?
+                    <a href="https://www.youtube.com/channel/UCCeJsuKUBNX-VsuzgX-XqoQ"
+                        style="font-size:55px;float:right;color:black;">^</a>
+                </p>
+            </div>
+        </div>
+        <div class="li">
+            <div class="line">Usefull Links</div>
+            <ul>
+                <li>Class Attendance Sheet Affiliated gyms</li>
+                <li>Bworkz</li>
+                <li>Lipsome</li>
+                <li>Tiger</li>
+            </ul>
+        </div>
+        <img src="LOGO1.png" alt="logo">
+    </div>
+    <footer>
+        <div class="foot">
+            <a href="https://www.facebook.com/rtigersfitnessstudio/"><i style="font-size:20px"class="fa">&#xf082;</i></a>
+                <a href="https://twitter.com/tigers_studio?lang=en"><i style="font-size:20px" class="fa">&#xf099;</i></a>
+                <a href="https://hi-in.facebook.com/rtigersfitnessstudio/"><i style="font-size:20px;"class="fa">&#xf16d;</i></a>
+        </div>
+    </footer>
+</body>
+
+</html>
