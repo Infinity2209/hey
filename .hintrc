@@ -12,6 +12,7 @@
           "width: fit-content"
         ]
       }
-    ]
+    ],
+    "meta-viewport": "off"
   }
 }
